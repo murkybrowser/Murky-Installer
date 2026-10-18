@@ -32,7 +32,7 @@ No bundled old version. No stale download. You always get the latest Murky.
 | 🤫 | **Silent install** | No clicking through wizard pages. Just watch it go. |
 | 📂 | **Live file list** | See exactly which files are being installed, not a vague megabyte counter. |
 | 🖥️ | **Desktop shortcut** | A **Create a Desktop Shortcut** checkbox, checked by default. Untick it if you'd rather not. |
-| 🎯 | **You decide when it opens** | Murky never starts by itself. It launches only when you press **Launch**. |
+| 🎯 | **You decide when it opens** | The Windows installer never starts Murky by itself. It launches only when you press **Launch**. |
 | 🌗 | **Smooth, modern UI** | Rounded borderless window, animated buttons that react when you press them, and a clean progress bar. |
 | 📜 | **Clear legal links** | Terms of Service and Privacy Policy are one click away. |
 
@@ -71,13 +71,19 @@ flowchart LR
 
 ### 🐧 Linux
 
-Run the same file with [Mono](https://www.mono-project.com/) (best effort):
+Download **`murky-install-linux.sh`** from the [Releases](https://github.com/murkybrowser/Murky-Browser/releases) page and run it. All it needs is `curl`.
+
+```bash
+sh murky-install-linux.sh
+```
+
+It downloads the latest `.AppImage` to `~/.local/share/murky`, makes it executable, adds **Murky** to your app menu, and starts Murky when it's done.
+
+Prefer a window? Run the Windows installer under [Mono](https://www.mono-project.com/) instead (best effort):
 
 ```bash
 mono MurkySetup.exe
 ```
-
-It downloads the latest `.AppImage` to `~/.local/share/murky`, makes it executable, and adds **Murky** to your app menu.
 
 ### 🍎 macOS
 
@@ -121,7 +127,7 @@ Check your internet connection and press **Retry**.
 <details>
 <summary><b>Does it open Murky without asking?</b></summary>
 
-No. Murky only starts when you press **Launch**.
+The Windows installer doesn't. Murky only starts when you press **Launch**. The Linux script has no window, so it starts Murky as soon as it finishes.
 
 </details>
 
