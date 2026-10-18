@@ -40,18 +40,6 @@ No bundled old version. No stale download. You always get the latest Murky.
 
 ## 🧠 How it works
 
-```mermaid
-flowchart LR
-    A([Run MurkySetup.exe]) --> B[Find newest release<br/>for your OS]
-    B --> C[Download installer]
-    C --> D{SHA-256<br/>available?}
-    D -- yes --> E[Verify file]
-    D -- no --> F
-    E --> F[Silent install<br/>live file list]
-    F --> G[Optional desktop shortcut]
-    G --> H([Press Launch 🎉])
-```
-
 - The newest release is picked **per OS**, so a newer Windows release never hides the latest Linux one, and the other way round.
 - On Windows it downloads the `Setup` `.exe`. The portable version is never used.
 - Drafts and pre-releases are skipped.
