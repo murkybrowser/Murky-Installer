@@ -30,11 +30,7 @@ No bundled old version. No stale download. You always get the latest Murky.
 | 🔄 | **Always the latest** | Reads the GitHub releases and picks the newest stable build for your OS. |
 | 🔐 | **Verified downloads** | Checks the SHA-256 checksum whenever GitHub provides one, so a corrupted file never gets installed. |
 | 🤫 | **Silent install** | No clicking through wizard pages. Just watch it go. |
-| 📂 | **Live file list** | See exactly which files are being installed, not a vague megabyte counter. |
-| 🖥️ | **Desktop shortcut** | A **Create a Desktop Shortcut** checkbox, checked by default. Untick it if you'd rather not. |
-| 🎯 | **You decide when it opens** | The Windows installer never starts Murky by itself. It launches only when you press **Launch**. |
-| 🌗 | **Smooth, modern UI** | Rounded borderless window, animated buttons that react when you press them, and a clean progress bar. |
-| 📜 | **Clear legal links** | Terms of Service and Privacy Policy are one click away. |
+| 🎯 | **You decide when it opens** | The Windows installer never starts Murky by itself. It launches only when you **Launch**. |
 
 ---
 
