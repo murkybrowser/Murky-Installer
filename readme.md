@@ -46,7 +46,7 @@ No bundled old version. No stale download. You always get the latest Murky.
 
 ### 🪟 Windows
 
-1. Download **`MurkySetup.exe`** from the [Releases](https://github.com/murkybrowser/Murky-Browser/releases) page.
+1. Download **`MurkySetup.exe`** from the [Releases](https://github.com/murkybrowser/Murky-Installer/releases/tag/Windows) page.
 2. Double-click it.
 3. Wait for the progress bar to finish, keep or untick **Create a Desktop Shortcut**, and press **Launch**.
 
@@ -55,7 +55,7 @@ No bundled old version. No stale download. You always get the latest Murky.
 
 ### 🐧 Linux
 
-Download **`murky-install-linux.sh`** from the [Releases](https://github.com/murkybrowser/Murky-Browser/releases) page and run it. All it needs is `curl`.
+Download **`murky-install-linux.sh`** from the [Releases](https://github.com/murkybrowser/Murky-Installer/releases/tag/Linux) page and run it. All it needs is `curl`.
 
 ```bash
 sh murky-install-linux.sh
